@@ -1,0 +1,8 @@
+prefix=/home/arslanali/quadrotor-simulation/devel
+
+Name: hector_quadrotor_actions
+Description: Description of hector_quadrotor_actions
+Version: 0.0.0
+Cflags: -I/home/arslanali/quadrotor-simulation/hector_quadrotor/hector_quadrotor_actions/include
+Libs: -L${prefix}/lib 
+Requires: roscpp
