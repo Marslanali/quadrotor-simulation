@@ -1,0 +1,2 @@
+cd ~/hector_quadrotor
+roslaunch hector_quadrotor_teleop xbox_controller.launch 
