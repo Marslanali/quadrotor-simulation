@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/arslanali/quadrotor-simulation/learn_quadrotor_trajectroy/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/arslanali/quadrotor-simulation/install
+
+Name: learn_quadrotor_trajectroy
+Description: Description of learn_quadrotor_trajectroy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

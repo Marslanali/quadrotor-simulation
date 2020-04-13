@@ -1739,6 +1739,19 @@ hector_quadrotor_aerodynamics/fast:
 .PHONY : hector_quadrotor_aerodynamics/fast
 
 #=============================================================================
+# Target rules for targets named learn_quadrotor_trajectroy_node
+
+# Build rule for target.
+learn_quadrotor_trajectroy_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learn_quadrotor_trajectroy_node
+.PHONY : learn_quadrotor_trajectroy_node
+
+# fast build rule for target.
+learn_quadrotor_trajectroy_node/fast:
+	$(MAKE) -f learn_quadrotor_trajectroy/CMakeFiles/learn_quadrotor_trajectroy_node.dir/build.make learn_quadrotor_trajectroy/CMakeFiles/learn_quadrotor_trajectroy_node.dir/build
+.PHONY : learn_quadrotor_trajectroy_node/fast
+
+#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -3757,6 +3770,7 @@ help:
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... hector_quadrotor_propulsion"
 	@echo "... hector_quadrotor_aerodynamics"
+	@echo "... learn_quadrotor_trajectroy_node"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_nodejs"
