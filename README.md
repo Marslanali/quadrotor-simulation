@@ -9,7 +9,7 @@ mkdir -p ~/catkin_ws/src
 
 cd catkin_ws/src
 
-git clone https://github.com/Marslanali/hector_quadrotor.git
+git clone https://github.com/Marslanali/quadrotor-simulation
  
 catkin_make
 ```
@@ -18,7 +18,7 @@ catkin_make
 Load the Gazebo simulator in separate terminals using the following commands:
 
 ```
-roslaunch hector_quadrotor_demo outdoor_flight_hector_gazebo.launch
+roslaunch hector_quadrotor_demo uav_outdoor_flight_gazebo.launch
 ```
 
 In a new terminal
@@ -30,7 +30,7 @@ rosservice call /enable_motors "enable: true"
 ### Simulation screenshots
 
 <p align="left">
-   <img src="uav.jpg" width ="500" height="400"/>
+   <img src="screenshots/uav.jpg" width ="500" height="400"/>
   <br/>
   Fig. 1. uav in empty gazebo world
 </p>
@@ -86,15 +86,15 @@ rosrun image_view image_view image:=/front_cam/camera/image
 Load the Gazebo simulator in separate terminals using the following commands:
 
 ```
-roslaunch hector_quadrotor_demo outdoor_flight_hector_quadrotor_swarm.launch
+roslaunch hector_quadrotor_demo uav_swarm_outdoor_flight_gazebo.launch
 ```
 
 
 ### Simulation screenshots
 
 <p align="left">
-   <img src="swarm1.jpg" width ="400" height="400"/>
-   <img src="swarm2.jpg" width ="400" height="400"/>
+   <img src="screenshots/swarm1.jpg" width ="400" height="400"/>
+   <img src="screenshots/swarm2.jpg" width ="400" height="400"/>
   <br/>
   Fig. 1. multiple uavs in gazebo
 </p>
@@ -104,9 +104,9 @@ roslaunch hector_quadrotor_demo outdoor_flight_hector_quadrotor_swarm.launch
 ### Enabling motors
 
 ```
-cd ~/hector_quadrotor/src/hector_quadrotor/hector_quadrotor_demo
-chmod +x motor_enable.sh
-./motor_enable.sh
+cd ~/quadrotor-simulation
+chmod +x motors_enables_uav_swarm.sh
+./motors_enables_uav_swarm.sh
 ```
 
 #### controling uav1 by publishing /uav1/cmd_vel:
@@ -119,7 +119,7 @@ rostopic pub -r 10 /uav1/cmd_vel geometry_msgs/Twist  '{linear:  {x: 0, y: 0.0, 
 ### Running keyboard teleop for swarm of uav
 
 ```
-cd ~/hector_quadrotor/src/hector_quadrotor/teleop_twist_keyboard
+cd ~/quadrotor-simulation/hector_quadrotor/teleop_twist_keyboard
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 

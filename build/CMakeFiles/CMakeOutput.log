@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/arslanali/quadrotor-simu
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17ddc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_17ddc.dir/build.make CMakeFiles/cmTC_17ddc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6b93e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b93e.dir/build.make CMakeFiles/cmTC_6b93e.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_17ddc.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_17ddc.dir/testCCompiler.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_17ddc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17ddc.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_17ddc.dir/testCCompiler.c.o  -o cmTC_17ddc -rdynamic 
+Building C object CMakeFiles/cmTC_6b93e.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6b93e.dir/testCCompiler.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6b93e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b93e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6b93e.dir/testCCompiler.c.o  -o cmTC_6b93e -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b4f3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b4f3.dir/build.make CMakeFiles/cmTC_4b4f3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7d9d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d9d4.dir/build.make CMakeFiles/cmTC_7d9d4.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_4b4f3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b4f3.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o  -o cmTC_4b4f3 -rdynamic  
+Building C object CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7d9d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d9d4.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o  -o cmTC_7d9d4 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b4f3' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRAogKS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4b4f3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d9d4' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxPJNFl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7d9d4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4b4f3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4b4f3.dir/build.make CMakeFiles/cmTC_4b4f3.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7d9d4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7d9d4.dir/build.make CMakeFiles/cmTC_7d9d4.dir/build]
   ignore line: [make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_4b4f3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b4f3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o  -o cmTC_4b4f3 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7d9d4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d9d4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o  -o cmTC_7d9d4 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b4f3' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRAogKS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4b4f3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7d9d4' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxPJNFl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7d9d4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccRAogKS.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxPJNFl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4b4f3] ==> ignore
+    arg [cmTC_7d9d4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_4b4f3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7d9d4.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_36178/fast"
-/usr/bin/make -f CMakeFiles/cmTC_36178.dir/build.make CMakeFiles/cmTC_36178.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_db1d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db1d5.dir/build.make CMakeFiles/cmTC_db1d5.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_36178.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_36178.dir/feature_tests.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_36178
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36178.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_36178.dir/feature_tests.c.o  -o cmTC_36178 -rdynamic 
+Building C object CMakeFiles/cmTC_db1d5.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_db1d5.dir/feature_tests.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_db1d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db1d5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_db1d5.dir/feature_tests.c.o  -o cmTC_db1d5 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFile
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42e31/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42e31.dir/build.make CMakeFiles/cmTC_42e31.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f9094/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9094.dir/build.make CMakeFiles/cmTC_f9094.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42e31.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_42e31.dir/feature_tests.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_42e31
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42e31.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_42e31.dir/feature_tests.c.o  -o cmTC_42e31 -rdynamic 
+Building C object CMakeFiles/cmTC_f9094.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_f9094.dir/feature_tests.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9094.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f9094.dir/feature_tests.c.o  -o cmTC_f9094 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFile
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a277a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a277a.dir/build.make CMakeFiles/cmTC_a277a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e10e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e10e0.dir/build.make CMakeFiles/cmTC_e10e0.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a277a.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a277a.dir/feature_tests.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a277a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a277a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a277a.dir/feature_tests.c.o  -o cmTC_a277a -rdynamic 
+Building C object CMakeFiles/cmTC_e10e0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_e10e0.dir/feature_tests.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e10e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e10e0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e10e0.dir/feature_tests.c.o  -o cmTC_e10e0 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFile
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8922c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8922c.dir/build.make CMakeFiles/cmTC_8922c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_37c05/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37c05.dir/build.make CMakeFiles/cmTC_37c05.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8922c.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_8922c.dir/testCXXCompiler.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_8922c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8922c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8922c.dir/testCXXCompiler.cxx.o  -o cmTC_8922c -rdynamic 
+Building CXX object CMakeFiles/cmTC_37c05.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_37c05.dir/testCXXCompiler.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_37c05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37c05.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_37c05.dir/testCXXCompiler.cxx.o  -o cmTC_37c05 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5541d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5541d.dir/build.make CMakeFiles/cmTC_5541d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f50d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f50d3.dir/build.make CMakeFiles/cmTC_f50d3.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_5541d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5541d.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5541d -rdynamic  
+Building CXX object CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f50d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50d3.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f50d3 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5541d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPilWUa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5541d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f50d3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxdTQGB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f50d3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5541d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5541d.dir/build.make CMakeFiles/cmTC_5541d.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f50d3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f50d3.dir/build.make CMakeFiles/cmTC_f50d3.dir/build]
   ignore line: [make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_5541d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5541d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5541d -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f50d3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50d3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f50d3 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5541d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPilWUa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5541d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f50d3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxdTQGB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f50d3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccPilWUa.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxdTQGB.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5541d] ==> ignore
+    arg [cmTC_f50d3] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_5541d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f50d3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8816/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b8816.dir/build.make CMakeFiles/cmTC_b8816.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_69a9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69a9c.dir/build.make CMakeFiles/cmTC_69a9c.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b8816.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_b8816.dir/feature_tests.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b8816
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8816.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b8816.dir/feature_tests.cxx.o  -o cmTC_b8816 -rdynamic 
+Building CXX object CMakeFiles/cmTC_69a9c.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_69a9c.dir/feature_tests.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_69a9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a9c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_69a9c.dir/feature_tests.cxx.o  -o cmTC_69a9c -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFile
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aca01/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aca01.dir/build.make CMakeFiles/cmTC_aca01.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_46a57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46a57.dir/build.make CMakeFiles/cmTC_46a57.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aca01.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_aca01.dir/feature_tests.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_aca01
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca01.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_aca01.dir/feature_tests.cxx.o  -o cmTC_aca01 -rdynamic 
+Building CXX object CMakeFiles/cmTC_46a57.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_46a57.dir/feature_tests.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_46a57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a57.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_46a57.dir/feature_tests.cxx.o  -o cmTC_46a57 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFile
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a4040/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a4040.dir/build.make CMakeFiles/cmTC_a4040.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3e410/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e410.dir/build.make CMakeFiles/cmTC_3e410.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a4040.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_a4040.dir/feature_tests.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a4040
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4040.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_a4040.dir/feature_tests.cxx.o  -o cmTC_a4040 -rdynamic 
+Building CXX object CMakeFiles/cmTC_3e410.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_3e410.dir/feature_tests.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3e410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e410.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3e410.dir/feature_tests.cxx.o  -o cmTC_3e410 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
@@ -555,42 +555,42 @@ make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFile
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b27d8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b27d8.dir/build.make CMakeFiles/cmTC_b27d8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8edc6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8edc6.dir/build.make CMakeFiles/cmTC_8edc6.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b27d8.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b27d8.dir/CheckIncludeFile.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b27d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b27d8.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b27d8.dir/CheckIncludeFile.c.o  -o cmTC_b27d8 -rdynamic 
+Building C object CMakeFiles/cmTC_8edc6.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8edc6.dir/CheckIncludeFile.c.o   -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8edc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8edc6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8edc6.dir/CheckIncludeFile.c.o  -o cmTC_8edc6 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00e28/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00e28.dir/build.make CMakeFiles/cmTC_00e28.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_12ce9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12ce9.dir/build.make CMakeFiles/cmTC_12ce9.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00e28.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_00e28.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_00e28
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e28.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_00e28.dir/CheckFunctionExists.c.o  -o cmTC_00e28 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_12ce9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_12ce9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12ce9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12ce9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_12ce9.dir/CheckFunctionExists.c.o  -o cmTC_12ce9 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the Q_WS_X11 exist passed with the following output:
 Change Dir: /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ecf75/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ecf75.dir/build.make CMakeFiles/cmTC_ecf75.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4f519/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f519.dir/build.make CMakeFiles/cmTC_4f519.dir/build
 make[1]: Entering directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ecf75.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_ecf75.dir/CheckSymbolExists.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_ecf75
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf75.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ecf75.dir/CheckSymbolExists.cxx.o  -o cmTC_ecf75 -rdynamic 
+Building CXX object CMakeFiles/cmTC_4f519.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_4f519.dir/CheckSymbolExists.cxx.o -c /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_4f519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f519.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4f519.dir/CheckSymbolExists.cxx.o  -o cmTC_4f519 -rdynamic 
 make[1]: Leaving directory '/home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp'
 
 File /home/arslanali/quadrotor-simulation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
