@@ -1,5 +1,5 @@
 # hector_quadrotor_gazebo_simulation
-Repository for hector_quadrotor simulation
+hector_quadrotor for UAVs swarm simulation
 
 ### complining the package
 In a new terminal 
