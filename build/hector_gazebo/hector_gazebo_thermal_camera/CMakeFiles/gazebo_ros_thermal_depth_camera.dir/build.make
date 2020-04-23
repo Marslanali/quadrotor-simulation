@@ -120,15 +120,6 @@ gazebo_ros_thermal_depth_camera_EXTERNAL_OBJECTS =
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libvision_reconfigure.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libgazebo_ros_utils.so
@@ -222,9 +213,6 @@ gazebo_ros_thermal_depth_camera_EXTERNAL_OBJECTS =
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-../devel/lib/libgazebo_ros_thermal_depth_camera.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libvision_reconfigure.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libgazebo_ros_utils.so
 ../devel/lib/libgazebo_ros_thermal_depth_camera.so: /opt/ros/kinetic/lib/libgazebo_ros_camera_utils.so

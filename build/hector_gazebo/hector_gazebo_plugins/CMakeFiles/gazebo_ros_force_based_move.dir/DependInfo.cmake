@@ -25,8 +25,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/sdformat-4.0"
   "/usr/include/ignition/math2"
   "/usr/include/OGRE"
-  "/usr/include/OGRE/Terrain"
-  "/usr/include/OGRE/Paging"
   )
 
 # Targets to which this target links.
