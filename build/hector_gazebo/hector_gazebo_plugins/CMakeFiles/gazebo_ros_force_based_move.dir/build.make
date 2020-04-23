@@ -126,6 +126,15 @@ gazebo_ros_force_based_move_EXTERNAL_OBJECTS =
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /opt/ros/kinetic/lib/libtf.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /opt/ros/kinetic/lib/libtf2_ros.so
@@ -176,6 +185,9 @@ gazebo_ros_force_based_move_EXTERNAL_OBJECTS =
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+../devel/lib/libgazebo_ros_force_based_move.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /opt/ros/kinetic/lib/libtf.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /opt/ros/kinetic/lib/libtf2_ros.so
 ../devel/lib/libgazebo_ros_force_based_move.so: /opt/ros/kinetic/lib/libactionlib.so

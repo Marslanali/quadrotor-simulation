@@ -936,7 +936,7 @@ hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gencpp.dir/all: hect
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gencpp.dir/rule
@@ -2123,7 +2123,7 @@ all: hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messag
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
@@ -2515,12 +2515,12 @@ hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cp
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/all: hector_quadrotor/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityZCommand.dir/all
 	$(MAKE) -f hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/build.make hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/build.make hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50 "Built target hector_uav_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50 "Built target hector_uav_msgs_generate_messages_cpp"
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/rule
@@ -3408,12 +3408,12 @@ hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.di
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/all: hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetNormal.dir/all
 	$(MAKE) -f hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/build.make hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/build.make hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=23 "Built target hector_nav_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=22,23 "Built target hector_nav_msgs_generate_messages_lisp"
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_lisp.dir/rule
@@ -3446,12 +3446,12 @@ hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/all: hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetNormal.dir/all
 	$(MAKE) -f hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/build.make hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/build.make hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=21,22 "Built target hector_nav_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=21 "Built target hector_nav_msgs_generate_messages_eus"
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_eus.dir/rule
@@ -3830,7 +3830,7 @@ hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_geneus.dir/all: hector_sl
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_geneus.dir/rule
@@ -3926,7 +3926,7 @@ hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genlisp.dir/all: hector_s
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genlisp.dir/rule
@@ -4834,7 +4834,7 @@ hector_quadrotor/hector_quadrotor_model/preinstall:
 hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propulsion.dir/all: hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propulsion.dir/build.make hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propulsion.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propulsion.dir/build.make hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propulsion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_quadrotor_propulsion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=38 "Built target hector_quadrotor_propulsion"
 .PHONY : hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propulsion.dir/all
 
 # Include target in all.
@@ -5136,6 +5136,61 @@ hector_slam/hector_compressed_map_transport/CMakeFiles/map_to_image_node.dir/cle
 
 # clean rule for target.
 clean: hector_slam/hector_compressed_map_transport/CMakeFiles/map_to_image_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory hector_quadrotor_opencv
+
+# Convenience name for "all" pass in the directory.
+hector_quadrotor_opencv/all: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/all
+
+.PHONY : hector_quadrotor_opencv/all
+
+# Convenience name for "clean" pass in the directory.
+hector_quadrotor_opencv/clean: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/clean
+
+.PHONY : hector_quadrotor_opencv/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hector_quadrotor_opencv/preinstall:
+
+.PHONY : hector_quadrotor_opencv/preinstall
+
+#=============================================================================
+# Target rules for target hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir
+
+# All Build rule for target.
+hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/all:
+	$(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/depend
+	$(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=36 "Built target hector_quadrotor_opencv_node1"
+.PHONY : hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/all
+
+# Include target in all.
+all: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
+.PHONY : hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/rule
+
+# Convenience name for target.
+hector_quadrotor_opencv_node1: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/rule
+
+.PHONY : hector_quadrotor_opencv_node1
+
+# clean rule for target.
+hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/clean:
+	$(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/clean
+.PHONY : hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/clean
+
+# clean rule for target.
+clean: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/clean
 
 .PHONY : clean
 
@@ -5557,7 +5612,7 @@ clean: hector_gazebo/hector_gazebo_plugins/CMakeFiles/tf2_msgs_generate_messages
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/all:
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=38 "Built target hector_servo_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_servo_plugin"
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/all
 
 # Include target in all.
@@ -5567,7 +5622,7 @@ all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/all
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_servo_plugin.dir/rule
@@ -7009,7 +7064,7 @@ hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all: hector_gazeb
 hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 	$(MAKE) -f hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/build.make hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/depend
 	$(MAKE) -f hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/build.make hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=15 "Built target hector_map_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_map_server"
 .PHONY : hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all
 
 # Include target in all.
@@ -7019,7 +7074,7 @@ all: hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/rule
@@ -8099,7 +8154,7 @@ hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_po
 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/all: hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/all
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/build.make hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/build.make hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_quadrotor_pose_estimation_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=37 "Built target hector_quadrotor_pose_estimation_node"
 .PHONY : hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/all
 
 # Include target in all.
@@ -8139,7 +8194,7 @@ hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_po
 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/all: hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/all
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/build.make hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/build.make hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=37 "Built target hector_quadrotor_pose_estimation_nodelet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_quadrotor_pose_estimation_nodelet"
 .PHONY : hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/all
 
 # Include target in all.
@@ -8149,7 +8204,7 @@ all: hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrot
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/rule
@@ -8179,7 +8234,7 @@ hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_po
 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/all: hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation_node.dir/all
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/build.make hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/build.make hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=36 "Built target hector_quadrotor_pose_estimation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_quadrotor_pose_estimation"
 .PHONY : hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/all
 
 # Include target in all.
@@ -8189,7 +8244,7 @@ all: hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrot
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_pose_estimation/CMakeFiles/hector_quadrotor_pose_estimation.dir/rule
@@ -8288,7 +8343,7 @@ hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/all
 hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 	$(MAKE) -f hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/build.make hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/depend
 	$(MAKE) -f hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/build.make hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_trajectory_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=39 "Built target hector_trajectory_server"
 .PHONY : hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/all
 
 # Include target in all.
@@ -8298,7 +8353,7 @@ all: hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.di
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/rule
@@ -8610,7 +8665,7 @@ clean: hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_py
 hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/all: hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/depend
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=16 "Built target hector_mapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=15 "Built target hector_mapping"
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/all
 
 # Include target in all.
@@ -8620,7 +8675,7 @@ all: hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/rule
@@ -8777,12 +8832,12 @@ hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/a
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all: hector_slam/hector_mapping/CMakeFiles/_hector_mapping_generate_messages_check_deps_HectorDebugInfo.dir/all
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/depend
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num= "Built target hector_mapping_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arslanali/quadrotor-simulation/build/CMakeFiles --progress-num=16 "Built target hector_mapping_generate_messages_cpp"
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/rule
@@ -8823,7 +8878,7 @@ all: hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/rule
@@ -8855,7 +8910,7 @@ hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/all: hector_slam
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/rule
@@ -9529,7 +9584,7 @@ all: hector_quadrotor/hector_quadrotor_interface/CMakeFiles/hector_quadrotor_int
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_interface/CMakeFiles/hector_quadrotor_interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_interface/CMakeFiles/hector_quadrotor_interface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_interface/CMakeFiles/hector_quadrotor_interface.dir/rule
@@ -9644,7 +9699,7 @@ all: hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 58
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/rule
@@ -9737,7 +9792,7 @@ all: hector_quadrotor/hector_quadrotor_actions/CMakeFiles/takeoff_action.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/takeoff_action.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 58
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/takeoff_action.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_actions/CMakeFiles/takeoff_action.dir/rule
@@ -9830,7 +9885,7 @@ all: hector_quadrotor/hector_quadrotor_actions/CMakeFiles/pose_action.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/pose_action.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 57
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/pose_action.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_actions/CMakeFiles/pose_action.dir/rule
@@ -9984,7 +10039,7 @@ all: hector_quadrotor/hector_quadrotor_controllers/CMakeFiles/hector_quadrotor_c
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_controllers/CMakeFiles/hector_quadrotor_controllers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 58
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_controllers/CMakeFiles/hector_quadrotor_controllers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_controllers/CMakeFiles/hector_quadrotor_controllers.dir/rule
@@ -10452,7 +10507,7 @@ all: hector_quadrotor/hector_quadrotor_teleop/CMakeFiles/quadrotor_teleop.dir/al
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_teleop/CMakeFiles/quadrotor_teleop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 58
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_teleop/CMakeFiles/quadrotor_teleop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_teleop/CMakeFiles/quadrotor_teleop.dir/rule
@@ -10576,7 +10631,7 @@ all: hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadr
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arslanali/quadrotor-simulation/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/rule

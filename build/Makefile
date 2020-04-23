@@ -1817,6 +1817,19 @@ map_to_image_node/fast:
 .PHONY : map_to_image_node/fast
 
 #=============================================================================
+# Target rules for targets named hector_quadrotor_opencv_node1
+
+# Build rule for target.
+hector_quadrotor_opencv_node1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor_opencv_node1
+.PHONY : hector_quadrotor_opencv_node1
+
+# fast build rule for target.
+hector_quadrotor_opencv_node1/fast:
+	$(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build
+.PHONY : hector_quadrotor_opencv_node1/fast
+
+#=============================================================================
 # Target rules for targets named hector_gazebo_ros_sonar
 
 # Build rule for target.
@@ -3763,6 +3776,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... map_to_image_node"
+	@echo "... hector_quadrotor_opencv_node1"
 	@echo "... hector_gazebo_ros_sonar"
 	@echo "... hector_gazebo_reset_plugin"
 	@echo "... tf2_msgs_generate_messages_py"

@@ -120,6 +120,15 @@ hector_gazebo_quadrotor_propulsion_EXTERNAL_OBJECTS =
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
@@ -142,6 +151,9 @@ hector_gazebo_quadrotor_propulsion_EXTERNAL_OBJECTS =
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /opt/ros/kinetic/lib/libtf.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /opt/ros/kinetic/lib/libtf2_ros.so
@@ -190,6 +202,9 @@ hector_gazebo_quadrotor_propulsion_EXTERNAL_OBJECTS =
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
@@ -211,6 +226,9 @@ hector_gazebo_quadrotor_propulsion_EXTERNAL_OBJECTS =
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /opt/ros/kinetic/lib/libtf.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /opt/ros/kinetic/lib/libtf2_ros.so
 ../devel/lib/libhector_gazebo_quadrotor_propulsion.so: /opt/ros/kinetic/lib/libactionlib.so
