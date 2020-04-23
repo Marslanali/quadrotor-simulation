@@ -100,6 +100,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -121,17 +132,6 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -180,6 +180,21 @@ hector_quadrotor_opencv_node1/fast:
 	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build
 .PHONY : hector_quadrotor_opencv_node1/fast
 
+# Convenience name for target.
+hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/rule:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/rule
+.PHONY : hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/rule
+
+# Convenience name for target.
+hector_quadrotor_opencv_node2: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/rule
+
+.PHONY : hector_quadrotor_opencv_node2
+
+# fast build rule for target.
+hector_quadrotor_opencv_node2/fast:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/build
+.PHONY : hector_quadrotor_opencv_node2/fast
+
 src/opencv_example_node1.o: src/opencv_example_node1.cpp.o
 
 .PHONY : src/opencv_example_node1.o
@@ -207,6 +222,33 @@ src/opencv_example_node1.cpp.s:
 	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/src/opencv_example_node1.cpp.s
 .PHONY : src/opencv_example_node1.cpp.s
 
+src/opencv_example_node2.o: src/opencv_example_node2.cpp.o
+
+.PHONY : src/opencv_example_node2.o
+
+# target to build an object file
+src/opencv_example_node2.cpp.o:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/src/opencv_example_node2.cpp.o
+.PHONY : src/opencv_example_node2.cpp.o
+
+src/opencv_example_node2.i: src/opencv_example_node2.cpp.i
+
+.PHONY : src/opencv_example_node2.i
+
+# target to preprocess a source file
+src/opencv_example_node2.cpp.i:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/src/opencv_example_node2.cpp.i
+.PHONY : src/opencv_example_node2.cpp.i
+
+src/opencv_example_node2.s: src/opencv_example_node2.cpp.s
+
+.PHONY : src/opencv_example_node2.s
+
+# target to generate assembly for a file
+src/opencv_example_node2.cpp.s:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/src/opencv_example_node2.cpp.s
+.PHONY : src/opencv_example_node2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,13 +259,17 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... hector_quadrotor_opencv_node1"
+	@echo "... hector_quadrotor_opencv_node2"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... hector_quadrotor_opencv_node1"
-	@echo "... test"
 	@echo "... src/opencv_example_node1.o"
 	@echo "... src/opencv_example_node1.i"
 	@echo "... src/opencv_example_node1.s"
+	@echo "... src/opencv_example_node2.o"
+	@echo "... src/opencv_example_node2.i"
+	@echo "... src/opencv_example_node2.s"
 .PHONY : help
 
 
