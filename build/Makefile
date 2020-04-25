@@ -1830,6 +1830,19 @@ hector_quadrotor_opencv_node1/fast:
 .PHONY : hector_quadrotor_opencv_node1/fast
 
 #=============================================================================
+# Target rules for targets named hector_quadrotor_opencv_node3
+
+# Build rule for target.
+hector_quadrotor_opencv_node3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor_opencv_node3
+.PHONY : hector_quadrotor_opencv_node3
+
+# fast build rule for target.
+hector_quadrotor_opencv_node3/fast:
+	$(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build
+.PHONY : hector_quadrotor_opencv_node3/fast
+
+#=============================================================================
 # Target rules for targets named hector_quadrotor_opencv_node2
 
 # Build rule for target.
@@ -3790,6 +3803,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... map_to_image_node"
 	@echo "... hector_quadrotor_opencv_node1"
+	@echo "... hector_quadrotor_opencv_node3"
 	@echo "... hector_quadrotor_opencv_node2"
 	@echo "... hector_gazebo_ros_sonar"
 	@echo "... hector_gazebo_reset_plugin"

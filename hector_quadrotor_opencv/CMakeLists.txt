@@ -140,14 +140,15 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(${PROJECT_NAME}_node1 src/opencv_example_node1.cpp)
 add_executable(${PROJECT_NAME}_node2 src/opencv_example_node2.cpp)
-
+add_executable(${PROJECT_NAME}_node3 src/opencv_example_node3.cpp)
 
 target_link_libraries(${PROJECT_NAME}_node1 ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 target_link_libraries(${PROJECT_NAME}_node2 ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(${PROJECT_NAME}_node3 ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 
 add_dependencies(${PROJECT_NAME}_node1 ${PROJECT_NAME}_generate_messages_cpp)
 add_dependencies(${PROJECT_NAME}_node2 ${PROJECT_NAME}_generate_messages_cpp)
-
+add_dependencies(${PROJECT_NAME}_node3 ${PROJECT_NAME}_generate_messages_cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

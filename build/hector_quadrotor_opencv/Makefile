@@ -78,17 +78,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -111,16 +100,16 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target install/strip
-install/strip/fast: install/strip
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
 
-.PHONY : install/strip/fast
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -132,6 +121,17 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -179,6 +179,21 @@ hector_quadrotor_opencv_node1: hector_quadrotor_opencv/CMakeFiles/hector_quadrot
 hector_quadrotor_opencv_node1/fast:
 	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node1.dir/build
 .PHONY : hector_quadrotor_opencv_node1/fast
+
+# Convenience name for target.
+hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/rule:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/rule
+.PHONY : hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/rule
+
+# Convenience name for target.
+hector_quadrotor_opencv_node3: hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/rule
+
+.PHONY : hector_quadrotor_opencv_node3
+
+# fast build rule for target.
+hector_quadrotor_opencv_node3/fast:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build
+.PHONY : hector_quadrotor_opencv_node3/fast
 
 # Convenience name for target.
 hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/rule:
@@ -249,6 +264,33 @@ src/opencv_example_node2.cpp.s:
 	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node2.dir/src/opencv_example_node2.cpp.s
 .PHONY : src/opencv_example_node2.cpp.s
 
+src/opencv_example_node3.o: src/opencv_example_node3.cpp.o
+
+.PHONY : src/opencv_example_node3.o
+
+# target to build an object file
+src/opencv_example_node3.cpp.o:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/src/opencv_example_node3.cpp.o
+.PHONY : src/opencv_example_node3.cpp.o
+
+src/opencv_example_node3.i: src/opencv_example_node3.cpp.i
+
+.PHONY : src/opencv_example_node3.i
+
+# target to preprocess a source file
+src/opencv_example_node3.cpp.i:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/src/opencv_example_node3.cpp.i
+.PHONY : src/opencv_example_node3.cpp.i
+
+src/opencv_example_node3.s: src/opencv_example_node3.cpp.s
+
+.PHONY : src/opencv_example_node3.s
+
+# target to generate assembly for a file
+src/opencv_example_node3.cpp.s:
+	cd /home/arslanali/quadrotor-simulation/build && $(MAKE) -f hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/build.make hector_quadrotor_opencv/CMakeFiles/hector_quadrotor_opencv_node3.dir/src/opencv_example_node3.cpp.s
+.PHONY : src/opencv_example_node3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,19 +299,23 @@ help:
 	@echo "... depend"
 	@echo "... list_install_components"
 	@echo "... install"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... hector_quadrotor_opencv_node1"
+	@echo "... rebuild_cache"
+	@echo "... hector_quadrotor_opencv_node3"
 	@echo "... hector_quadrotor_opencv_node2"
-	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install/strip"
 	@echo "... src/opencv_example_node1.o"
 	@echo "... src/opencv_example_node1.i"
 	@echo "... src/opencv_example_node1.s"
 	@echo "... src/opencv_example_node2.o"
 	@echo "... src/opencv_example_node2.i"
 	@echo "... src/opencv_example_node2.s"
+	@echo "... src/opencv_example_node3.o"
+	@echo "... src/opencv_example_node3.i"
+	@echo "... src/opencv_example_node3.s"
 .PHONY : help
 
 
