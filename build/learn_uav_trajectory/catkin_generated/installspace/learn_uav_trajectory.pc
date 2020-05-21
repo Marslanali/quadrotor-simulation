@@ -1,8 +1,0 @@
-prefix=/home/arslanali/quadrotor-simulation/install
-
-Name: learn_uav_trajectory
-Description: Description of learn_uav_trajectory
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
