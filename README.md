@@ -1,4 +1,4 @@
-# 🚧 🚧 hector_quadrotor_gazebo_simulation 🚧 🚧
+# hector_quadrotor_gazebo_simulation
 
 hector_quadrotor for UAVs swarm simulation
 
